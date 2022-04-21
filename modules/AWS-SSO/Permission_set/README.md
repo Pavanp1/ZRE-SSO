@@ -3,7 +3,7 @@ This module is for creating permission sets
 
 Example :
 
-module "permission_set" {
+  module "permission_set" {
   source = "../module"
 
   name = "AWS-SSO-IAM"
