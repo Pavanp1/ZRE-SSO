@@ -1,8 +1,9 @@
 This module is for creating permission sets
 
 
-Example :
+[Example] :
 
+ ```hcl
   module "permission_set" {
   source = "../module"
 
@@ -22,3 +23,4 @@ data "aws_iam_policy_document" "ec2full-custom-policy" {
   source_policy_documents = [file("../../../policies/policy1.json")]
 
 }
+```
