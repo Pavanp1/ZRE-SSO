@@ -1,6 +1,6 @@
 variable "account_id" {
   description = "The identifier of an AWS account which the assignment willb e created. Typically a 10-12 digit string."
-  type        = string
+  type        = list(string)
 }
 
 variable "permission_set_arn" {
