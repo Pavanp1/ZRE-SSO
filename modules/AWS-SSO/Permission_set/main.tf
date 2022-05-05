@@ -33,7 +33,7 @@ resource "aws_ssoadmin_permission_set" "this" {
     {
       "Name" = local.metadata.name
     },
-    var.tags,
+#     var.tags,
   )
 }
 
