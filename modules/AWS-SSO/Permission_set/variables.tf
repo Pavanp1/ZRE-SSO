@@ -33,11 +33,11 @@ variable "inline_policy" {
   default     = null
 }
 
-variable "tags" {
-  description = "A map of tags to add to all resources."
-  type        = map(string)
-  default     = {}
-}
+# variable "tags" {
+#   description = "A map of tags to add to all resources."
+#   type        = map(string)
+#   default     = {}
+# }
 
 variable "module_tags_enabled" {
   description = "Whether to create AWS Resource Tags for the module informations."
