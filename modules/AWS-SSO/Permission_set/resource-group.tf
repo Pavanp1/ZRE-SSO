@@ -39,6 +39,6 @@ resource "aws_resourcegroups_group" "this" {
       "Name" = local.resource_group_name
     },
    # local.module_tags,
-    var.tags,
+#     var.tags,
   )
 }
