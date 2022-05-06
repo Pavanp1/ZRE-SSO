@@ -8,7 +8,7 @@ module "aws-account-assignment" {
 
   account_id = "Account Number"
   groups= ["<group name>"]
-  permission_set_arn = "<permission set arn"
+  permission_set_arn = "<permission set arn>"
 }
 
 
