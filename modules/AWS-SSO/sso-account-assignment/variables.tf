@@ -16,11 +16,15 @@ variable "users" {
   default     = []
 }
 
-variable "account_id" {
-  description = "List of maps containing mapping between user/group, permission set and assigned accounts list. See account_assignments description in README for more information about map values."
-  type = list(object({
-    account_ids = list(string)
-  }))
+# variable "account_id" {
+#   description = "List of maps containing mapping between user/group, permission set and assigned accounts list. See account_assignments description in README for more information about map values."
+#   type = list(object({
+#     account_ids = list(string)
+#   }))
 
-  default = []
+#   default = []
+# }
+
+variable "account_id" {
+  type = string
 }
